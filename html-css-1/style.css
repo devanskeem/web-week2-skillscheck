@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+body{
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+html {
+    height: 100%;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+}
+.navigation {
+    margin: 0;
+    height: 55px;
+    width: 100%;
+    color: white;
+    background: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.title{
+    font-weight: 100;
+    width: 50%;
+    margin: 0px 500px 0px 10px;}
+
+.nav-option{
+    margin: 5px 10px;
+}
+
+.section-1{
+    font-size: 50px;
+    margin: 0;
+    height: 300px;
+    width: 100%;
+    background: black;
+    color: #e6e677;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    background: rgb(0, 255, 187);
+    margin: 0px 6.7px; 
+
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section-2{
+    margin: 25px 400px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.rectangle{
+    height: 250px;
+    width: 450px;
+    background: #ffd07f;
+    margin: 0px 10px;
+}
+.section-3{
+    margin: 25px 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-4{
+    margin: 45px 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.image > img{
+    height: 200px;
+}
+
+.text {
+    width: 400px;
+}
+.text > p{
+    font-size: 15px;
+    width: 400px;
+}
+
+.foot-box{
+    height: 120px;
+    background: #654b84;
+    bottom: 0;
+}
